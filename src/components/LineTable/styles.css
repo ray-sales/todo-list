@@ -1,0 +1,40 @@
+.line-task:read-only {
+    border: none;
+    background: none;
+}
+
+.line-task {
+    outline: 0;
+}
+
+.line-table button {
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.line-table td:first-child {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.line-table td:last-child {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.line-table {
+    background: #ebe2d7;
+    opacity: 0.8;
+    overflow-x: auto;
+}
+
+.line-table td {
+    padding: 1rem;
+}
+
+.line-table:hover {
+    opacity: 1;
+}

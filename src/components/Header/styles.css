@@ -1,0 +1,22 @@
+.header-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "children";
+    flex-direction: row;
+    background-color: #78ABEB;
+    width: 100%;
+    margin: 0 auto;
+    height: 15rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    grid-area: title;
+    margin-bottom: -8rem;
+}
+
+#content {
+    grid-area: children;
+}
